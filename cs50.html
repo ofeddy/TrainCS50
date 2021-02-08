@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title>Hello!</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- link rel="stylesheet" href="styles.css"-->
+	<style>
+		th {
+			border: solid black 1px;
+		}
+		td {
+			border: solid black 1px;
+			padding: 5px;
+		}
+		#lead {
+			color: blueviolet;
+		}
+		button:hover {
+			color: brown;
+		}
+
+		@media (min-width: 600px) {
+		  body {
+			background-color: rgb(85, 167, 126);
+		    }
+     }
+	 @media (max-width: 599px) {
+		  body {
+			background-color: rgb(111, 111, 218);
+		    }
+     }
+	   h1 {
+		background-color: rgb(143, 83, 125);
+		color: white;
+	   }
+	   #cont {
+		   display: flex;
+		   flex-wrap: wrap;
+	   }
+	   #cont > div {
+		   background-color: brown;
+		   font-size: 20px;
+		   margin: 20px;
+		   padding: 20px;
+		   width: 200px;
+	   }
+	</style>
+	</head>
+
+    <body>
+			
+	<!--headings n sizes:-->
+		<h1 id="lead">This is a Heading</h1>
+        <h2>Hello, world!</h2>
+		<h6>Smallest heading</h6>
+
+		<div id="cont">
+			<div>1. Sample flex</div>
+			<div>2. Sample flex</div>
+			<div>3. Sample flex</div>
+			<div>4. Sample flex</div>
+			<div>5. Sample flex</div>
+			<div>6. Sample flex</div>
+		</div>
+		
+	<div class="container">  
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">	
+	<!--Ordered List:-->
+		<ol>
+			<li>First Item</li>
+			<li>Second Item</li>
+			<li>Third Item</li>
+		</ol>
+	        </div>
+			<div class="col-lg-3 col-sm-6">	
+	<!--unordered List-->
+		<ul>
+			<li>First Item</li>
+			<li>Second Item</li>
+			<li>Third Item</li>
+		</ul>
+		</div>
+			</div>
+	<!--Image-->
+		<img src="logof.JPG" alt="logo" alt=""height="200" width="200" >
+	
+	
+	<!--Link-->
+	<a href="https://cs50.harvard.edu/web/2020/notes/0/#:~:text=%3C!DOCTYPE%20html%3E%3Chtml%20lang=%22en%22%3E%20%20%20%20%3Chead%3E%20%20%20%20%20%20%20%20%3Ctitle%3EHello!%3C/title%3E%20%20%20%20%3C/head%3E%20%20%20%20%3Cbody%3E%20%20%20%20%20%20%20%20Hello,%20world!%20%20%20%20%3C/body%3E%3Chtml%3E">Click here</a>
+	<li><a href="https://www.google.com/">Google</a></li>
+	</div>
+	<!--Table-->
+	<table>
+		<thead>
+			<tr>
+				<th>Town</th>
+				<th>Distance</th>
+			</tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>Kisumu</td>
+			<td>380 km</td>
+		  </tr>
+		  <tr>
+			<td>Nakuru</td>
+			<td>180 km</td>
+		  </tr>
+		  <tr>
+			<td>Mombasa</td>
+			<td>420 km</td>
+		  </tr>
+		</tbody>
+	</table>
+	<!--Form-->
+	<form action="">
+		<input type="text" placeholder="Name" name="name">
+		<input type="submit">
+		<button>Close</button>
+	</form>
+	</body>
+<html>

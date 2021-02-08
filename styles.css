@@ -1,0 +1,55 @@
+h1 {color: blue; 
+    text-align: center
+}
+h2 {color: rebeccapurple; 
+    text-align: left;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(49, 50, 110);
+    padding: 2px;
+}
+ul li {
+    color: rgb(52, 156, 92);
+}
+a[href="https://www.google.com/"] {
+    color: red;
+}
+button {
+    background-color: red;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.grid {
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }

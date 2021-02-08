@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.topbar {
+    background-color: blue;
+    text-align: center;
+    }
+    .topbar ul {
+        display: inline-flex;
+        list-style: none;
+        color: white;
+
+    }
+    .topbar ul li {
+        width: 150px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .topbar ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+   .active, .topbar ul li:hover {
+       background: rgb(165, 226, 236);
+       border-radius: 3px;
+       
+   }
+    
